@@ -10,9 +10,11 @@ for dir in "${my_workspace[@]}"; do
 done
 
 #Creating an array of app to install
-my_app=("kitty" "neovim" "openvpn" "github-cli" "git"
-	"gcc" "gdb" "python3" "python-pip" "python-virtualenv" 
-	"polybar" "firefox")
+my_app=("kitty" "neovim" "openvpn" "github-cli" 
+	"git" "gcc" "gdb" "python3" "python-pip" 
+	"python-virtualenv" "polybar" "firefox" 
+	"ttf-firacode-nerd" "ttf-jetbrains-mono-nerd"
+	"ttf-gohu-nerd")
 
 #Loop install my_app
 for app in "${my_app[@]}"; do
@@ -25,6 +27,6 @@ mkdir ~/.config/kitty
 mkdir ~/.config/polybar
 
 cp ~/dotfile/kitty.conf ~/.config/kitty/
-cp -f ~/dotfile/.bashrc ~/
-cp -f ~/dotfile/polybar/config.ini ~/.config/polybar/
-cp -fr ~/dotfile/i3 ~/.config/
+cp -rf ~/dotfile/.bashrc ~/
+cp -rf ~/dotfile/polybar ~/.config/
+cp -rf ~/dotfile/i3 ~/.config/
