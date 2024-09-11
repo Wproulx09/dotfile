@@ -5,9 +5,6 @@
 #if not running interactivly, don't do anything
 [[ $- != *i* ]] && return
 
-
-
-
 #echo user 
 echo -e "Bienvenue $USER \n"  
 
@@ -17,7 +14,6 @@ alias grep='grep --color=auto'
 alias c='clear'
 alias le='ls -la'
 alias lss='ls -a'
-alias h='cd ~'
 alias findf='find -type f'
 alias vpn='openvpn '
 
@@ -25,6 +21,12 @@ alias vpn='openvpn '
 alias gp='git push origin'
 alias gc='git commit'
 alias ga='git add .'
+
+#Aliases movement
+alias h='cd ~'
+alias ..='cd ..'
+alias ...='cd ../..'
+
 #Adding function
 function mygrep(){
     grep -i $1 $2; 
