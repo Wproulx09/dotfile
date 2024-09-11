@@ -3,6 +3,7 @@
 #Creating workspace
 my_workspace=("bin" "cegep" "projets")
 
+
 #Loop create directories
 for dir in "${my_workspace[@]}"; do
 	echo $dir
