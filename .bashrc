@@ -9,32 +9,10 @@
 echo -e "Bienvenue $USER \n"  
 
 #Adding alias
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias c='clear'
-alias le='ls -la'
-alias lss='ls -a'
-alias findf='find -type f'
-alias vpn='openvpn '
-
-#git aliases
-alias gp='git push origin'
-alias gc='git commit'
-alias ga='git add .'
-
-#Aliases movement
-alias h='cd ~'
-alias ..='cd ..'
-alias ...='cd ../..'
+source ~/.aliases
 
 #Adding function
-function mygrep(){
-    grep -i $1 $2; 
-}
-
-function mkto(){
-	mkdir $1 && cd $_
-}
+source ~/.functions
 
 
 #Modifie PS1

@@ -28,6 +28,12 @@ mkdir ~/.config/kitty
 mkdir ~/.config/polybar
 mkdir ~/.config/nvim
 
+#Copy .aliases to correct location
+cp ~/dotfile/.aliases ~/
+
+#Copy .functions to correct location
+cp ~/dotfile/.functions ~/
+
 #Copy kitty.conf to correct location
 cp ~/dotfile/kitty.conf ~/.config/kitty/
 

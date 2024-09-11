@@ -1,0 +1,7 @@
+function mygrep(){
+    grep -i $1 $2; 
+}
+
+function mkto(){
+	mkdir $1 && cd $_
+}
