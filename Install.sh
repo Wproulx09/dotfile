@@ -26,6 +26,7 @@ done
 
 mkdir ~/.config/kitty
 mkdir ~/.config/polybar
+mkdir ~/.config/nvim
 
 #Copy kitty.conf to correct location
 cp ~/dotfile/kitty.conf ~/.config/kitty/
@@ -41,3 +42,6 @@ cp -rf ~/dotfile/i3 ~/.config/
 
 #copy gitconfig to correct location
 cp -f ~/dotfile/.gitconfig ~/
+
+#copy nvim config to correct location
+cp -rf ~/dotfile/nvim ~/.config/
