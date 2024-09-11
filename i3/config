@@ -51,7 +51,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec kitty
-bindsym $mod+Return+f exec firefox 
+bindsym $mod+Shift+f exec firefox 
 
 # kill focused window
 bindsym $mod+Shift+q kill

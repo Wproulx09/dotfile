@@ -20,9 +20,11 @@ alias lss='ls -a'
 alias h='cd ~'
 alias findf='find -type f'
 alias vpn='openvpn '
+
+#git aliases
 alias gp='git push origin'
 alias gc='git commit'
-
+alias ga='git add .'
 #Adding function
 function mygrep(){
     grep -i $1 $2; 

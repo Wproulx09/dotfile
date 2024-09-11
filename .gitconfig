@@ -1,0 +1,15 @@
+[user]
+	email = williamproulx09@gmail.com
+	name = William Proulx
+	username = wproulx09
+
+[core]
+	editor = nvim
+
+[color]
+	ui = auto
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold

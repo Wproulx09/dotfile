@@ -27,7 +27,17 @@ done
 mkdir ~/.config/kitty
 mkdir ~/.config/polybar
 
+#Copy kitty.conf to correct location
 cp ~/dotfile/kitty.conf ~/.config/kitty/
+
+#Copy .bashrc to correct location
 cp -rf ~/dotfile/.bashrc ~/
+
+#Copy polybar config to correct location
 cp -rf ~/dotfile/polybar ~/.config/
+
+#copy i3 config to correct location
 cp -rf ~/dotfile/i3 ~/.config/
+
+#copy gitconfig to correct location
+cp -f ~/dotfile/.gitconfig ~/
