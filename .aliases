@@ -1,9 +1,14 @@
 #Adding alias
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
+#grep le fait par default...
+alias grepc='grep'
+
 alias c='clear'
 alias le='ls -la'
-alias lss='ls -a'
+alias ll='ls -l'
+alias la='ls -a'
 alias findf='find -type f'
 alias vpn='openvpn '
 
@@ -11,6 +16,8 @@ alias vpn='openvpn '
 alias gp='git push origin'
 alias gc='git commit'
 alias ga='git add .'
+
+alias map='nmap -sC -sV'
 
 #Aliases movement
 alias h='cd ~'

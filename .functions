@@ -5,3 +5,8 @@ function mygrep(){
 function mkto(){
 	mkdir $1 && cd $_
 }
+
+function tvim(){
+	touch $1 && nvim $_
+}
+

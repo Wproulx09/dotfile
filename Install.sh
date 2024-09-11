@@ -15,7 +15,7 @@ my_app=("kitty" "neovim" "openvpn" "github-cli"
 	"git" "gcc" "gdb" "python3" "python-pip" 
 	"python-virtualenv" "polybar" "firefox" 
 	"ttf-firacode-nerd" "ttf-jetbrains-mono-nerd"
-	"ttf-gohu-nerd")
+	"ttf-gohu-nerd" "nmap")
 
 #Loop install my_app
 for app in "${my_app[@]}"; do
