@@ -2,6 +2,8 @@ require("config.lazy")
 
 vim.opt.termguicolors = true
 
+vim.wo.relativenumber = true
+
 require("bufferline").setup{}
 
 require("neo-tree").setup{}
